@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
 
 # URL for Actual Test
-Email [me](mailto://alex@alexreich.com) for a live service url for a working demo.
+Email [me](mailto:alex@alexreich.com) for a live service url for a working demo.
 
 ## Requirements
 Ensure npm & Angular are installed before proceeding. 
