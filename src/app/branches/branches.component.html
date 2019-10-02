@@ -1,0 +1,20 @@
+<div style="margin: 5px;">
+  <h3>Branches</h3>
+  <label>City:
+    <input type="text" [(ngModel)]="query">
+  </label>
+</div>
+<hr />
+<div class="branches">
+  <div *ngFor="let branch of branches | startsWith : query">
+    <a (click)="toggleShow(branch)">
+      <span class="badge">{{ branch.Name || -1 }}</span>
+      <span>{{branch.PostalAddress.TownName}}</span>
+    </a>
+    <div [hidden]="!branch.Shown">
+        <h3>{{branch.Name}}</h3>
+        <p>{{branch.PostalAddress.AddressLine}}</p>
+        <p><a style = 'color: blue;' href="tel:{{branch.ContactInfo[0].ContactContent}}">{{branch.ContactInfo[0].ContactContent}}</a></p>
+    </div>
+  </div>
+</div>
