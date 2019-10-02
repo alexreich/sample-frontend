@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
 
 # URL for Actual Test
-Email [me](mailto:alex@alexreich.com?subject=Request for URL for Actual Test on sample-frontend) for a live service url for a working demo.
+Email [me](mailto:alex@alexreich.com?subject=Request%20for%20URL%20for%20Actual%20Test%20on%20sample-frontend) for a live service url for a working demo.
 
 ## Requirements
 Ensure npm & Angular are installed before proceeding. 
